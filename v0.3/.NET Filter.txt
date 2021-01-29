@@ -1,0 +1,430 @@
+Match: b'4d5a900003000000' : b'MZ\x90\x00\x03\x00\x00\x00' : 	dec	ebp : Jaro Rate: 1
+Match: b'04000000ffff0000' : b'\x04\x00\x00\x00\xff\xff\x00\x00' : 	add	al, 0 : Jaro Rate: 1
+Match: b'b800000000000000' : b'\xb8\x00\x00\x00\x00\x00\x00\x00' : 	mov	eax, 0 : Jaro Rate: 1
+Match: b'4000000000000000' : b'@\x00\x00\x00\x00\x00\x00\x00' : 	inc	eax : Jaro Rate: 1
+Match: b'0000000080000000' : b'\x00\x00\x00\x00\x80\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0e1fba0e00b409cd' : b'\x0e\x1f\xba\x0e\x00\xb4\t\xcd' : 	push	cs : Jaro Rate: 1
+Match: b'21b8014ccd215468' : b'!\xb8\x01L\xcd!Th' : 	and	dword ptr [eax + 0x21cd4c01], edi : Jaro Rate: 1
+Match: b'69732070726f6772' : b'is progr' : 	imul	esi, dword ptr [ebx + 0x20], 0x676f7270 : Jaro Rate: 1
+Match: b'616d2063616e6e6f' : b'am canno' : 	popal	 : Jaro Rate: 1
+Match: b'742062652072756e' : b't be run' : 	je	0x1022 : Jaro Rate: 1
+Match: b'20696e20444f5320' : b' in DOS ' : 	and	byte ptr [ecx + 0x6e], ch : Jaro Rate: 1
+Match: b'6d6f64652e0d0d0a' : b'mode.\r\r\n' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'2400000000000000' : b'$\x00\x00\x00\x00\x00\x00\x00' : 	and	al, 0 : Jaro Rate: 1
+Match: b'504500004c010300' : b'PE\x00\x00L\x01\x03\x00' : 	push	eax : Jaro Rate: 1
+Match: b'fb82f0f700000000' : b'\xfb\x82\xf0\xf7\x00\x00\x00\x00' : 	sti	 : Jaro Rate: 1
+Match: b'00000000e0002200' : b'\x00\x00\x00\x00\xe0\x00"\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0b01300000080000' : b'\x0b\x010\x00\x00\x08\x00\x00' : 	or	eax, dword ptr [ecx] : Jaro Rate: 1
+Match: b'0008000000000000' : b'\x00\x08\x00\x00\x00\x00\x00\x00' : 	add	byte ptr [eax], cl : Jaro Rate: 1
+Match: b'da26000000200000' : b'\xda&\x00\x00\x00 \x00\x00' : 	fisub	dword ptr [esi] : Jaro Rate: 1
+Match: b'0040000000004000' : b'\x00@\x00\x00\x00\x00@\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0020000000020000' : b'\x00 \x00\x00\x00\x02\x00\x00' : 	add	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'0400000000000000' : b'\x04\x00\x00\x00\x00\x00\x00\x00' : 	add	al, 0 : Jaro Rate: 1
+Match: b'0600000000000000' : b'\x06\x00\x00\x00\x00\x00\x00\x00' : 	push	es : Jaro Rate: 1
+Match: b'0080000000020000' : b'\x00\x80\x00\x00\x00\x02\x00\x00' : 	add	byte ptr [eax + 0x2000000], al : Jaro Rate: 1
+Match: b'0000000003006085' : b'\x00\x00\x00\x00\x03\x00`\x85' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000100000100000' : b'\x00\x00\x10\x00\x00\x10\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000100000100000' : b'\x00\x00\x10\x00\x00\x10\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000000010000000' : b'\x00\x00\x00\x00\x10\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'862600004f000000' : b'\x86&\x00\x00O\x00\x00\x00' : 	xchg	byte ptr [esi], ah : Jaro Rate: 1
+Match: b'00400000bc050000' : b'\x00@\x00\x00\xbc\x05\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'006000000c000000' : b'\x00`\x00\x00\x0c\x00\x00\x00' : 	add	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'f425000038000000' : b'\xf4%\x00\x008\x00\x00\x00' : 	hlt	 : Jaro Rate: 1
+Match: b'0020000008000000' : b'\x00 \x00\x00\x08\x00\x00\x00' : 	add	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'0820000048000000' : b'\x08 \x00\x00H\x00\x00\x00' : 	or	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'2e74657874000000' : b'.text\x00\x00\x00' : 	je	0x1068 : Jaro Rate: 1
+Match: b'e006000000200000' : b'\xe0\x06\x00\x00\x00 \x00\x00' : 	loopne	0x1008 : Jaro Rate: 1
+Match: b'0008000000020000' : b'\x00\x08\x00\x00\x00\x02\x00\x00' : 	add	byte ptr [eax], cl : Jaro Rate: 1
+Match: b'0000000020000060' : b'\x00\x00\x00\x00 \x00\x00`' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'2e72737263000000' : b'.rsrc\x00\x00\x00' : 	jb	0x1076 : Jaro Rate: 1
+Match: b'bc05000000400000' : b'\xbc\x05\x00\x00\x00@\x00\x00' : 	mov	esp, 5 : Jaro Rate: 1
+Match: b'00060000000a0000' : b'\x00\x06\x00\x00\x00\n\x00\x00' : 	add	byte ptr [esi], al : Jaro Rate: 1
+Match: b'0000000040000040' : b'\x00\x00\x00\x00@\x00\x00@' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'2e72656c6f630000' : b'.reloc\x00\x00' : 	jb	0x1068 : Jaro Rate: 1
+Match: b'0c00000000600000' : b'\x0c\x00\x00\x00\x00`\x00\x00' : 	or	al, 0 : Jaro Rate: 1
+Match: b'0002000000100000' : b'\x00\x02\x00\x00\x00\x10\x00\x00' : 	add	byte ptr [edx], al : Jaro Rate: 1
+Match: b'0000000040000042' : b'\x00\x00\x00\x00@\x00\x00B' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'ba26000000000000' : b'\xba&\x00\x00\x00\x00\x00\x00' : 	mov	edx, 0x26 : Jaro Rate: 1
+Match: b'4800000002000500' : b'H\x00\x00\x00\x02\x00\x05\x00' : 	dec	eax : Jaro Rate: 1
+Match: b'5c20000098050000' : b'\\ \x00\x00\x98\x05\x00\x00' : 	pop	esp : Jaro Rate: 1
+Match: b'0300020001000006' : b'\x03\x00\x02\x00\x01\x00\x00\x06' : 	add	eax, dword ptr [eax] : Jaro Rate: 1
+Match: b'0a002a2202280f00' : b'\n\x00*"\x02(\x0f\x00' : 	or	al, byte ptr [eax] : Jaro Rate: 1
+Match: b'000a002a42534a42' : b'\x00\n\x00*BSJB' : 	add	byte ptr [edx], cl : Jaro Rate: 1
+Match: b'0100010000000000' : b'\x01\x00\x01\x00\x00\x00\x00\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'0c00000076342e30' : b'\x0c\x00\x00\x00v4.0' : 	or	al, 0 : Jaro Rate: 1
+Match: b'2e33303331390000' : b'.30319\x00\x00' : 	xor	esi, dword ptr cs:[eax] : Jaro Rate: 1
+Match: b'000005006c000000' : b'\x00\x00\x05\x00l\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'c0010000237e0000' : b'\xc0\x01\x00\x00#~\x00\x00' : 	rol	byte ptr [ecx], 0 : Jaro Rate: 1
+Match: b'2c02000048020000' : b',\x02\x00\x00H\x02\x00\x00' : 	sub	al, 2 : Jaro Rate: 1
+Match: b'23537472696e6773' : b'#Strings' : 	and	edx, dword ptr [ebx + 0x74] : Jaro Rate: 1
+Match: b'0000000074040000' : b'\x00\x00\x00\x00t\x04\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0400000023555300' : b'\x04\x00\x00\x00#US\x00' : 	add	al, 0 : Jaro Rate: 1
+Match: b'7804000010000000' : b'x\x04\x00\x00\x10\x00\x00\x00' : 	js	0x1006 : Jaro Rate: 1
+Match: b'2347554944000000' : b'#GUID\x00\x00\x00' : 	and	eax, dword ptr [edi + 0x55] : Jaro Rate: 1
+Match: b'8804000010010000' : b'\x88\x04\x00\x00\x10\x01\x00\x00' : 	mov	byte ptr [eax + eax], al : Jaro Rate: 1
+Match: b'23426c6f62000000' : b'#Blob\x00\x00\x00' : 	and	eax, dword ptr [edx + 0x6c] : Jaro Rate: 1
+Match: b'0000000002000001' : b'\x00\x00\x00\x00\x02\x00\x00\x01' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'4715000009000000' : b'G\x15\x00\x00\t\x00\x00\x00' : 	inc	edi : Jaro Rate: 1
+Match: b'00fa013300160000' : b'\x00\xfa\x013\x00\x16\x00\x00' : 	add	dl, bh : Jaro Rate: 1
+Match: b'0100000010000000' : b'\x01\x00\x00\x00\x10\x00\x00\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'0200000002000000' : b'\x02\x00\x00\x00\x02\x00\x00\x00' : 	add	al, byte ptr [eax] : Jaro Rate: 1
+Match: b'010000000f000000' : b'\x01\x00\x00\x00\x0f\x00\x00\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'0e00000001000000' : b'\x0e\x00\x00\x00\x01\x00\x00\x00' : 	push	cs : Jaro Rate: 1
+Match: b'0100000000008401' : b'\x01\x00\x00\x00\x00\x00\x84\x01' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'0100000000000600' : b'\x01\x00\x00\x00\x00\x00\x06\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'f9000c0206006601' : b'\xf9\x00\x0c\x02\x06\x00f\x01' : 	stc	 : Jaro Rate: 1
+Match: b'0c0206002d00da01' : b'\x0c\x02\x06\x00-\x00\xda\x01' : 	or	al, 2 : Jaro Rate: 1
+Match: b'0f002c0200000600' : b'\x0f\x00,\x02\x00\x00\x06\x00' : 	verw	word ptr [edx + eax] : Jaro Rate: 1
+Match: b'5500c2010600dc00' : b'U\x00\xc2\x01\x06\x00\xdc\x00' : 	push	ebp : Jaro Rate: 1
+Match: b'c2010600bd00c201' : b'\xc2\x01\x06\x00\xbd\x00\xc2\x01' : 	ret	0x601 : Jaro Rate: 1
+Match: b'06004d01c2010600' : b'\x06\x00M\x01\xc2\x01\x06\x00' : 	push	es : Jaro Rate: 1
+Match: b'1901c20106003201' : b'\x19\x01\xc2\x01\x06\x002\x01' : 	sbb	dword ptr [ecx], eax : Jaro Rate: 1
+Match: b'c20106006c00c201' : b'\xc2\x01\x06\x00l\x00\xc2\x01' : 	ret	0x601 : Jaro Rate: 1
+Match: b'06004100ed010600' : b'\x06\x00A\x00\xed\x01\x06\x00' : 	push	es : Jaro Rate: 1
+Match: b'1f00ed010600a000' : b'\x1f\x00\xed\x01\x06\x00\xa0\x00' : 	pop	ds : Jaro Rate: 1
+Match: b'c201060087009401' : b'\xc2\x01\x06\x00\x87\x00\x94\x01' : 	ret	0x601 : Jaro Rate: 1
+Match: b'06004002b6010000' : b'\x06\x00@\x02\xb6\x01\x00\x00' : 	push	es : Jaro Rate: 1
+Match: b'00000d0000000000' : b'\x00\x00\r\x00\x00\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0100010000001000' : b'\x01\x00\x01\x00\x00\x00\x10\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'ae01010041000100' : b'\xae\x01\x01\x00A\x00\x01\x00' : 	scasb	al, byte ptr es:[edi] : Jaro Rate: 1
+Match: b'0100502000000000' : b'\x01\x00P \x00\x00\x00\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'9100bd0123000100' : b'\x91\x00\xbd\x01#\x00\x01\x00' : 	xchg	eax, ecx : Jaro Rate: 1
+Match: b'5320000000008618' : b'S \x00\x00\x00\x00\x86\x18' : 	push	ebx : Jaro Rate: 1
+Match: b'd401060002000000' : b'\xd4\x01\x06\x00\x02\x00\x00\x00' : 	aam	1 : Jaro Rate: 1
+Match: b'01003b020900d401' : b'\x01\x00;\x02\t\x00\xd4\x01' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'01001100d4010600' : b'\x01\x00\x11\x00\xd4\x01\x06\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'1900d4010a002900' : b'\x19\x00\xd4\x01\n\x00)\x00' : 	sbb	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'd40110003100d401' : b'\xd4\x01\x10\x001\x00\xd4\x01' : 	aam	1 : Jaro Rate: 1
+Match: b'10003900d4011000' : b'\x10\x009\x00\xd4\x01\x10\x00' : 	adc	byte ptr [eax], al : Jaro Rate: 1
+Match: b'4100d40110004900' : b'A\x00\xd4\x01\x10\x00I\x00' : 	inc	ecx : Jaro Rate: 1
+Match: b'd40110005100d401' : b'\xd4\x01\x10\x00Q\x00\xd4\x01' : 	aam	1 : Jaro Rate: 1
+Match: b'10005900d4011000' : b'\x10\x00Y\x00\xd4\x01\x10\x00' : 	adc	byte ptr [eax], al : Jaro Rate: 1
+Match: b'6100d40115006900' : b'a\x00\xd4\x01\x15\x00i\x00' : 	popal	 : Jaro Rate: 1
+Match: b'd40110007100d401' : b'\xd4\x01\x10\x00q\x00\xd4\x01' : 	aam	1 : Jaro Rate: 1
+Match: b'10007900d4011000' : b'\x10\x00y\x00\xd4\x01\x10\x00' : 	adc	byte ptr [eax], al : Jaro Rate: 1
+Match: b'8100d40106002e00' : b'\x81\x00\xd4\x01\x06\x00.\x00' : 	add	dword ptr [eax], 0x601d4 : Jaro Rate: 1
+Match: b'0b0029002e001300' : b'\x0b\x00)\x00.\x00\x13\x00' : 	or	eax, dword ptr [eax] : Jaro Rate: 1
+Match: b'32002e001b005100' : b'2\x00.\x00\x1b\x00Q\x00' : 	xor	al, byte ptr [eax] : Jaro Rate: 1
+Match: b'2e0023005a002e00' : b'.\x00#\x00Z\x00.\x00' : 	add	byte ptr cs:[ebx], ah : Jaro Rate: 1
+Match: b'2b006b002e003300' : b'+\x00k\x00.\x003\x00' : 	sub	eax, dword ptr [eax] : Jaro Rate: 1
+Match: b'6b002e003b006b00' : b'k\x00.\x00;\x00k\x00' : 	imul	eax, dword ptr [eax], 0x2e : Jaro Rate: 1
+Match: b'2e0043005a002e00' : b'.\x00C\x00Z\x00.\x00' : 	add	byte ptr cs:[ebx], al : Jaro Rate: 1
+Match: b'4b0071002e005300' : b'K\x00q\x00.\x00S\x00' : 	dec	ebx : Jaro Rate: 1
+Match: b'6b002e005b006b00' : b'k\x00.\x00[\x00k\x00' : 	imul	eax, dword ptr [eax], 0x2e : Jaro Rate: 1
+Match: b'2e00630089002e00' : b'.\x00c\x00\x89\x00.\x00' : 	add	byte ptr cs:[ebx], ah : Jaro Rate: 1
+Match: b'6b00b3002e007300' : b'k\x00\xb3\x00.\x00s\x00' : 	imul	eax, dword ptr [eax], -0x4d : Jaro Rate: 1
+Match: b'c000048000000100' : b'\xc0\x00\x04\x80\x00\x00\x01\x00' : 	rol	byte ptr [eax], 4 : Jaro Rate: 1
+Match: b'0000000001000000' : b'\x00\x00\x00\x00\x01\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0400000000000000' : b'\x04\x00\x00\x00\x00\x00\x00\x00' : 	add	al, 0 : Jaro Rate: 1
+Match: b'000000001a001600' : b'\x00\x00\x00\x00\x1a\x00\x16\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'00436f6e736f6c65' : b'\x00Console' : 	add	byte ptr [ebx + 0x6f], al : Jaro Rate: 1
+Match: b'41707037003c4d6f' : b'App7\x00<Mo' : 	inc	ecx : Jaro Rate: 1
+Match: b'64756c653e006d73' : b'dule>\x00ms' : 	jne	0x106f : Jaro Rate: 1
+Match: b'636f726c69620047' : b'corlib\x00G' : 	arpl	word ptr [edi + 0x72], bp : Jaro Rate: 1
+Match: b'7569644174747269' : b'uidAttri' : 	jne	0x106b : Jaro Rate: 1
+Match: b'6275746500446562' : b'bute\x00Deb' : 	bound	esi, qword ptr [ebp + 0x74] : Jaro Rate: 1
+Match: b'75676761626c6541' : b'uggableA' : 	jne	0x1069 : Jaro Rate: 1
+Match: b'7474726962757465' : b'ttribute' : 	je	0x1076 : Jaro Rate: 1
+Match: b'00436f6d56697369' : b'\x00ComVisi' : 	add	byte ptr [ebx + 0x6f], al : Jaro Rate: 1
+Match: b'626c654174747269' : b'bleAttri' : 	bound	ebp, qword ptr [ebp + 0x41] : Jaro Rate: 1
+Match: b'6275746500417373' : b'bute\x00Ass' : 	bound	esi, qword ptr [ebp + 0x74] : Jaro Rate: 1
+Match: b'656d626c79546974' : b'emblyTit' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6c65417474726962' : b'leAttrib' : 	insb	byte ptr es:[edi], dx : Jaro Rate: 1
+Match: b'7574650041737365' : b'ute\x00Asse' : 	jne	0x1076 : Jaro Rate: 1
+Match: b'6d626c7954726164' : b'mblyTrad' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'656d61726b417474' : b'emarkAtt' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'7269627574650054' : b'ribute\x00T' : 	jb	0x106b : Jaro Rate: 1
+Match: b'6172676574467261' : b'argetFra' : 	popal	 : Jaro Rate: 1
+Match: b'6d65776f726b4174' : b'meworkAt' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'7472696275746500' : b'tribute\x00' : 	je	0x1074 : Jaro Rate: 1
+Match: b'417373656d626c79' : b'Assembly' : 	inc	ecx : Jaro Rate: 1
+Match: b'46696c6556657273' : b'FileVers' : 	inc	esi : Jaro Rate: 1
+Match: b'696f6e4174747269' : b'ionAttri' : 	imul	ebp, dword ptr [edi + 0x6e], 0x72747441 : Jaro Rate: 1
+Match: b'6275746500417373' : b'bute\x00Ass' : 	bound	esi, qword ptr [ebp + 0x74] : Jaro Rate: 1
+Match: b'656d626c79436f6e' : b'emblyCon' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6669677572617469' : b'figurati' : 	imul	sp, word ptr [edi + 0x75], 0x6172 : Jaro Rate: 1
+Match: b'6f6e417474726962' : b'onAttrib' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'7574650041737365' : b'ute\x00Asse' : 	jne	0x1076 : Jaro Rate: 1
+Match: b'6d626c7944657363' : b'mblyDesc' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'72697074696f6e41' : b'riptionA' : 	jb	0x106b : Jaro Rate: 1
+Match: b'7474726962757465' : b'ttribute' : 	je	0x1076 : Jaro Rate: 1
+Match: b'00436f6d70696c61' : b'\x00Compila' : 	add	byte ptr [ebx + 0x6f], al : Jaro Rate: 1
+Match: b'74696f6e52656c61' : b'tionRela' : 	je	0x106b : Jaro Rate: 1
+Match: b'786174696f6e7341' : b'xationsA' : 	js	0x1063 : Jaro Rate: 1
+Match: b'7474726962757465' : b'ttribute' : 	je	0x1076 : Jaro Rate: 1
+Match: b'00417373656d626c' : b'\x00Assembl' : 	add	byte ptr [ecx + 0x73], al : Jaro Rate: 1
+Match: b'7950726f64756374' : b'yProduct' : 	jns	0x1052 : Jaro Rate: 1
+Match: b'4174747269627574' : b'Attribut' : 	inc	ecx : Jaro Rate: 1
+Match: b'6500417373656d62' : b'e\x00Assemb' : 	add	byte ptr gs:[ecx + 0x73], al : Jaro Rate: 1
+Match: b'6c79436f70797269' : b'lyCopyri' : 	insb	byte ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6768744174747269' : b'ghtAttri' : 	push	0x74744174 : Jaro Rate: 1
+Match: b'6275746500417373' : b'bute\x00Ass' : 	bound	esi, qword ptr [ebp + 0x74] : Jaro Rate: 1
+Match: b'656d626c79436f6d' : b'emblyCom' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'70616e7941747472' : b'panyAttr' : 	jo	0x1063 : Jaro Rate: 1
+Match: b'6962757465005275' : b'ibute\x00Ru' : 	imul	esp, dword ptr [edx + 0x75], 0x52006574 : Jaro Rate: 1
+Match: b'6e74696d65436f6d' : b'ntimeCom' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'7061746962696c69' : b'patibili' : 	jo	0x1063 : Jaro Rate: 1
+Match: b'7479417474726962' : b'tyAttrib' : 	je	0x107b : Jaro Rate: 1
+Match: b'75746500436f6e73' : b'ute\x00Cons' : 	jne	0x1076 : Jaro Rate: 1
+Match: b'6f6c65417070372e' : b'oleApp7.' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'6578650053797374' : b'exe\x00Syst' : 	js	0x1068 : Jaro Rate: 1
+Match: b'656d2e52756e7469' : b'em.Runti' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6d652e5665727369' : b'me.Versi' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6f6e696e67005072' : b'oning\x00Pr' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'6f6772616d005379' : b'ogram\x00Sy' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'7374656d004d6169' : b'stem\x00Mai' : 	jae	0x1076 : Jaro Rate: 1
+Match: b'6e0053797374656d' : b'n\x00System' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'2e5265666c656374' : b'.Reflect' : 	push	edx : Jaro Rate: 1
+Match: b'696f6e002e63746f' : b'ion\x00.cto' : 	imul	ebp, dword ptr [edi + 0x6e], 0x74632e00 : Jaro Rate: 1
+Match: b'720053797374656d' : b'r\x00System' : 	jb	0x1002 : Jaro Rate: 1
+Match: b'2e446961676e6f73' : b'.Diagnos' : 	inc	esp : Jaro Rate: 1
+Match: b'7469637300537973' : b'tics\x00Sys' : 	je	0x106b : Jaro Rate: 1
+Match: b'74656d2e52756e74' : b'tem.Runt' : 	je	0x1067 : Jaro Rate: 1
+Match: b'696d652e496e7465' : b'ime.Inte' : 	imul	ebp, dword ptr [ebp + 0x65], 0x746e492e : Jaro Rate: 1
+Match: b'726f705365727669' : b'ropServi' : 	jb	0x1071 : Jaro Rate: 1
+Match: b'6365730053797374' : b'ces\x00Syst' : 	arpl	word ptr [ebp + 0x73], sp : Jaro Rate: 1
+Match: b'656d2e52756e7469' : b'em.Runti' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6d652e436f6d7069' : b'me.Compi' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6c65725365727669' : b'lerServi' : 	insb	byte ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6365730044656275' : b'ces\x00Debu' : 	arpl	word ptr [ebp + 0x73], sp : Jaro Rate: 1
+Match: b'6767696e674d6f64' : b'ggingMod' : None : Jaro Rate: 1
+Match: b'6573006172677300' : b'es\x00args\x00' : 	jae	0x1003 : Jaro Rate: 1
+Match: b'4f626a6563740000' : b'Object\x00\x00' : 	dec	edi : Jaro Rate: 1
+Match: b'000000000b8d461a' : b'\x00\x00\x00\x00\x0b\x8dF\x1a' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'b5e6934dad4d5a22' : b'\xb5\xe6\x93M\xadMZ"' : 	mov	ch, 0xe6 : Jaro Rate: 1
+Match: b'6cfe865100042001' : b'l\xfe\x86Q\x00\x04 \x01' : 	insb	byte ptr es:[edi], dx : Jaro Rate: 1
+Match: b'0108032000010520' : b'\x01\x08\x03 \x00\x01\x05 ' : 	add	dword ptr [eax], ecx : Jaro Rate: 1
+Match: b'0101111104200101' : b'\x01\x01\x11\x11\x04 \x01\x01' : 	add	dword ptr [ecx], eax : Jaro Rate: 1
+Match: b'0e042001010208b7' : b'\x0e\x04 \x01\x01\x02\x08\xb7' : 	push	cs : Jaro Rate: 1
+Match: b'7a5c561934e08905' : b'z\\V\x194\xe0\x89\x05' : 	jp	0x105e : Jaro Rate: 1
+Match: b'0001011d0e080100' : b'\x00\x01\x01\x1d\x0e\x08\x01\x00' : 	add	byte ptr [ecx], al : Jaro Rate: 1
+Match: b'0800000000001e01' : b'\x08\x00\x00\x00\x00\x00\x1e\x01' : 	or	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0001005402165772' : b'\x00\x01\x00T\x02\x16Wr' : 	add	byte ptr [ecx], al : Jaro Rate: 1
+Match: b'61704e6f6e457863' : b'apNonExc' : 	popal	 : Jaro Rate: 1
+Match: b'657074696f6e5468' : b'eptionTh' : 	jo	0x1077 : Jaro Rate: 1
+Match: b'726f777301080100' : b'rows\x01\x08\x01\x00' : 	jb	0x1071 : Jaro Rate: 1
+Match: b'0701000000001001' : b'\x07\x01\x00\x00\x00\x00\x10\x01' : 	pop	es : Jaro Rate: 1
+Match: b'000b436f6e736f6c' : b'\x00\x0bConsol' : 	add	byte ptr [ebx], cl : Jaro Rate: 1
+Match: b'6541707037000005' : b'eApp7\x00\x00\x05' : 	inc	ecx : Jaro Rate: 1
+Match: b'0100000000170100' : b'\x01\x00\x00\x00\x00\x17\x01\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'12436f7079726967' : b'\x12Copyrig' : 	adc	al, byte ptr [ebx + 0x6f] : Jaro Rate: 1
+Match: b'687420c2a9202032' : b'ht \xc2\xa9  2' : 	push	0xa9c22074 : Jaro Rate: 1
+Match: b'3032310000290100' : b'021\x00\x00)\x01\x00' : 	xor	byte ptr [edx], dh : Jaro Rate: 1
+Match: b'2464373565303933' : b'$d75e093' : 	and	al, 0x64 : Jaro Rate: 1
+Match: b'382d343939392d34' : b'8-4999-4' : 	cmp	byte ptr [0x39393934], ch : Jaro Rate: 1
+Match: b'3561312d62383739' : b'5a1-b879' : 	xor	eax, 0x622d3161 : Jaro Rate: 1
+Match: b'2d64346562383135' : b'-d4eb815' : 	sub	eax, 0x62653464 : Jaro Rate: 1
+Match: b'633537396500000c' : b'c579e\x00\x00\x0c' : 	arpl	word ptr [0x653937], si : Jaro Rate: 1
+Match: b'010007312e302e30' : b'\x01\x00\x071.0.0' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'2e3000004d01001c' : b'.0\x00\x00M\x01\x00\x1c' : 	xor	byte ptr cs:[eax], al : Jaro Rate: 1
+Match: b'2e4e45544672616d' : b'.NETFram' : 	dec	esi : Jaro Rate: 1
+Match: b'65776f726b2c5665' : b'ework,Ve' : 	ja	0x1072 : Jaro Rate: 1
+Match: b'7273696f6e3d7634' : b'rsion=v4' : 	jb	0x1075 : Jaro Rate: 1
+Match: b'2e362e310100540e' : b'.6.1\x01\x00T\x0e' : 	xor	dword ptr cs:[ecx], eax : Jaro Rate: 1
+Match: b'144672616d65776f' : b'\x14Framewo' : 	adc	al, 0x46 : Jaro Rate: 1
+Match: b'726b446973706c61' : b'rkDispla' : 	jb	0x106d : Jaro Rate: 1
+Match: b'794e616d65142e4e' : b'yName\x14.N' : 	jns	0x1050 : Jaro Rate: 1
+Match: b'4554204672616d65' : b'ET Frame' : 	inc	ebp : Jaro Rate: 1
+Match: b'776f726b20342e36' : b'work 4.6' : 	ja	0x1071 : Jaro Rate: 1
+Match: b'2e31000000000000' : b'.1\x00\x00\x00\x00\x00\x00' : 	xor	dword ptr cs:[eax], eax : Jaro Rate: 1
+Match: b'a267dac500000000' : b'\xa2g\xda\xc5\x00\x00\x00\x00' : 	mov	byte ptr [0xc5da67], al : Jaro Rate: 1
+Match: b'020000005a000000' : b'\x02\x00\x00\x00Z\x00\x00\x00' : 	add	al, byte ptr [eax] : Jaro Rate: 1
+Match: b'2c2600002c080000' : b',&\x00\x00,\x08\x00\x00' : 	sub	al, 0x26 : Jaro Rate: 1
+Match: b'0000000010000000' : b'\x00\x00\x00\x00\x10\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000000052534453' : b'\x00\x00\x00\x00RSDS' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'5ca90407ee2dd943' : b'\\\xa9\x04\x07\xee-\xd9C' : 	pop	esp : Jaro Rate: 1
+Match: b'8a32b702f76d97e5' : b'\x8a2\xb7\x02\xf7m\x97\xe5' : 	mov	dh, byte ptr [edx] : Jaro Rate: 1
+Match: b'01000000433a5c55' : b'\x01\x00\x00\x00C:\\U' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'736572735c636172' : b'sers\\car' : 	jae	0x1067 : Jaro Rate: 1
+Match: b'6d655c736f757263' : b'me\\sourc' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'655c7265706f735c' : b'e\\repos\\' : 	pop	esp : Jaro Rate: 1
+Match: b'436f6e736f6c6541' : b'ConsoleA' : 	inc	ebx : Jaro Rate: 1
+Match: b'7070375c6f626a5c' : b'pp7\\obj\\' : 	jo	0x1072 : Jaro Rate: 1
+Match: b'44656275675c436f' : b'Debug\\Co' : 	inc	esp : Jaro Rate: 1
+Match: b'6e736f6c65417070' : b'nsoleApp' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'372e70646200ae26' : b'7.pdb\x00\xae&' : 	aaa	 : Jaro Rate: 1
+Match: b'0000c82600000020' : b'\x00\x00\xc8&\x00\x00\x00 ' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'000000000000ba26' : b'\x00\x00\x00\x00\x00\x00\xba&' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'000000005f436f72' : b'\x00\x00\x00\x00_Cor' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'4578654d61696e00' : b'ExeMain\x00' : 	inc	ebp : Jaro Rate: 1
+Match: b'6d73636f7265652e' : b'mscoree.' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'646c6c0000000000' : b'dll\x00\x00\x00\x00\x00' : 	insb	byte ptr es:[edi], dx : Jaro Rate: 1
+Match: b'0000ff2500204000' : b'\x00\x00\xff%\x00 @\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000000000000200' : b'\x00\x00\x00\x00\x00\x00\x02\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'1000000020000080' : b'\x10\x00\x00\x00 \x00\x00\x80' : 	adc	byte ptr [eax], al : Jaro Rate: 1
+Match: b'1800000050000080' : b'\x18\x00\x00\x00P\x00\x00\x80' : 	sbb	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000000000000100' : b'\x00\x00\x00\x00\x00\x00\x01\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0100000038000080' : b'\x01\x00\x00\x008\x00\x00\x80' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'0000000000000100' : b'\x00\x00\x00\x00\x00\x00\x01\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000000080000000' : b'\x00\x00\x00\x00\x80\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000000000000100' : b'\x00\x00\x00\x00\x00\x00\x01\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0100000068000080' : b'\x01\x00\x00\x00h\x00\x00\x80' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'0000000000000100' : b'\x00\x00\x00\x00\x00\x00\x01\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'00000000bc030000' : b'\x00\x00\x00\x00\xbc\x03\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'904000002c030000' : b'\x90@\x00\x00,\x03\x00\x00' : 	nop	 : Jaro Rate: 1
+Match: b'2c03340000005600' : b',\x034\x00\x00\x00V\x00' : 	sub	al, 3 : Jaro Rate: 1
+Match: b'53005f0056004500' : b'S\x00_\x00V\x00E\x00' : 	push	ebx : Jaro Rate: 1
+Match: b'5200530049004f00' : b'R\x00S\x00I\x00O\x00' : 	push	edx : Jaro Rate: 1
+Match: b'4e005f0049004e00' : b'N\x00_\x00I\x00N\x00' : 	dec	esi : Jaro Rate: 1
+Match: b'46004f0000000000' : b'F\x00O\x00\x00\x00\x00\x00' : 	inc	esi : Jaro Rate: 1
+Match: b'bd04effe00000100' : b'\xbd\x04\xef\xfe\x00\x00\x01\x00' : 	mov	ebp, 0xfeef04 : Jaro Rate: 1
+Match: b'0000010000000000' : b'\x00\x00\x01\x00\x00\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000010000000000' : b'\x00\x00\x01\x00\x00\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'3f00000000000000' : b'?\x00\x00\x00\x00\x00\x00\x00' : 	aas	 : Jaro Rate: 1
+Match: b'0400000001000000' : b'\x04\x00\x00\x00\x01\x00\x00\x00' : 	add	al, 0 : Jaro Rate: 1
+Match: b'0000000044000000' : b'\x00\x00\x00\x00D\x00\x00\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0100560061007200' : b'\x01\x00V\x00a\x00r\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'460069006c006500' : b'F\x00i\x00l\x00e\x00' : 	inc	esi : Jaro Rate: 1
+Match: b'49006e0066006f00' : b'I\x00n\x00f\x00o\x00' : 	dec	ecx : Jaro Rate: 1
+Match: b'0000000024000400' : b'\x00\x00\x00\x00$\x00\x04\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0000540072006100' : b'\x00\x00T\x00r\x00a\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'6e0073006c006100' : b'n\x00s\x00l\x00a\x00' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'740069006f006e00' : b't\x00i\x00o\x00n\x00' : 	je	0x1002 : Jaro Rate: 1
+Match: b'000000000000b004' : b'\x00\x00\x00\x00\x00\x00\xb0\x04' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'8c02000001005300' : b'\x8c\x02\x00\x00\x01\x00S\x00' : 	mov	word ptr [edx], es : Jaro Rate: 1
+Match: b'7400720069006e00' : b't\x00r\x00i\x00n\x00' : 	je	0x1002 : Jaro Rate: 1
+Match: b'6700460069006c00' : b'g\x00F\x00i\x00l\x00' : 	add	byte ptr [bp], al : Jaro Rate: 1
+Match: b'650049006e006600' : b'e\x00I\x00n\x00f\x00' : 	add	byte ptr gs:[ecx], cl : Jaro Rate: 1
+Match: b'6f00000068020000' : b'o\x00\x00\x00h\x02\x00\x00' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'0100300030003000' : b'\x01\x000\x000\x000\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'3000300034006200' : b'0\x000\x004\x00b\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'300000001a000100' : b'0\x00\x00\x00\x1a\x00\x01\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'010043006f006d00' : b'\x01\x00C\x00o\x00m\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'6d0065006e007400' : b'm\x00e\x00n\x00t\x00' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'7300000000000000' : b's\x00\x00\x00\x00\x00\x00\x00' : 	jae	0x1002 : Jaro Rate: 1
+Match: b'2200010001004300' : b'"\x00\x01\x00\x01\x00C\x00' : 	and	al, byte ptr [eax] : Jaro Rate: 1
+Match: b'6f006d0070006100' : b'o\x00m\x00p\x00a\x00' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'6e0079004e006100' : b'n\x00y\x00N\x00a\x00' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'6d00650000000000' : b'm\x00e\x00\x00\x00\x00\x00' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'0000000040000c00' : b'\x00\x00\x00\x00@\x00\x0c\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0100460069006c00' : b'\x01\x00F\x00i\x00l\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'6500440065007300' : b'e\x00D\x00e\x00s\x00' : 	add	byte ptr gs:[eax + eax + 0x65], al : Jaro Rate: 1
+Match: b'6300720069007000' : b'c\x00r\x00i\x00p\x00' : 	arpl	word ptr [eax], ax : Jaro Rate: 1
+Match: b'740069006f006e00' : b't\x00i\x00o\x00n\x00' : 	je	0x1002 : Jaro Rate: 1
+Match: b'0000000043006f00' : b'\x00\x00\x00\x00C\x00o\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'6e0073006f006c00' : b'n\x00s\x00o\x00l\x00' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'6500410070007000' : b'e\x00A\x00p\x00p\x00' : 	add	byte ptr gs:[ecx], al : Jaro Rate: 1
+Match: b'3700000030000800' : b'7\x00\x00\x000\x00\x08\x00' : 	aaa	 : Jaro Rate: 1
+Match: b'0100460069006c00' : b'\x01\x00F\x00i\x00l\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'6500560065007200' : b'e\x00V\x00e\x00r\x00' : 	add	byte ptr gs:[esi], dl : Jaro Rate: 1
+Match: b'730069006f006e00' : b's\x00i\x00o\x00n\x00' : 	jae	0x1002 : Jaro Rate: 1
+Match: b'0000000031002e00' : b'\x00\x00\x00\x001\x00.\x00' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'30002e0030002e00' : b'0\x00.\x000\x00.\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'3000000040001000' : b'0\x00\x00\x00@\x00\x10\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'010049006e007400' : b'\x01\x00I\x00n\x00t\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'650072006e006100' : b'e\x00r\x00n\x00a\x00' : 	add	byte ptr gs:[edx], dh : Jaro Rate: 1
+Match: b'6c004e0061006d00' : b'l\x00N\x00a\x00m\x00' : 	insb	byte ptr es:[edi], dx : Jaro Rate: 1
+Match: b'6500000043006f00' : b'e\x00\x00\x00C\x00o\x00' : 	add	byte ptr gs:[eax], al : Jaro Rate: 1
+Match: b'6e0073006f006c00' : b'n\x00s\x00o\x00l\x00' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'6500410070007000' : b'e\x00A\x00p\x00p\x00' : 	add	byte ptr gs:[ecx], al : Jaro Rate: 1
+Match: b'37002e0065007800' : b'7\x00.\x00e\x00x\x00' : 	aaa	 : Jaro Rate: 1
+Match: b'6500000048001200' : b'e\x00\x00\x00H\x00\x12\x00' : 	add	byte ptr gs:[eax], al : Jaro Rate: 1
+Match: b'01004c0065006700' : b'\x01\x00L\x00e\x00g\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'61006c0043006f00' : b'a\x00l\x00C\x00o\x00' : 	popal	 : Jaro Rate: 1
+Match: b'7000790072006900' : b'p\x00y\x00r\x00i\x00' : 	jo	0x1002 : Jaro Rate: 1
+Match: b'6700680074000000' : b'g\x00h\x00t\x00\x00\x00' : 	add	byte ptr [bx + si], ch : Jaro Rate: 1
+Match: b'43006f0070007900' : b'C\x00o\x00p\x00y\x00' : 	inc	ebx : Jaro Rate: 1
+Match: b'7200690067006800' : b'r\x00i\x00g\x00h\x00' : 	jb	0x1002 : Jaro Rate: 1
+Match: b'74002000a9002000' : b't\x00 \x00\xa9\x00 \x00' : 	je	0x1002 : Jaro Rate: 1
+Match: b'2000320030003200' : b' \x002\x000\x002\x00' : 	and	byte ptr [eax], al : Jaro Rate: 1
+Match: b'310000002a000100' : b'1\x00\x00\x00*\x00\x01\x00' : 	xor	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'01004c0065006700' : b'\x01\x00L\x00e\x00g\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'61006c0054007200' : b'a\x00l\x00T\x00r\x00' : 	popal	 : Jaro Rate: 1
+Match: b'6100640065006d00' : b'a\x00d\x00e\x00m\x00' : 	popal	 : Jaro Rate: 1
+Match: b'610072006b007300' : b'a\x00r\x00k\x00s\x00' : 	popal	 : Jaro Rate: 1
+Match: b'4800100001004f00' : b'H\x00\x10\x00\x01\x00O\x00' : 	dec	eax : Jaro Rate: 1
+Match: b'7200690067006900' : b'r\x00i\x00g\x00i\x00' : 	jb	0x1002 : Jaro Rate: 1
+Match: b'6e0061006c004600' : b'n\x00a\x00l\x00F\x00' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'69006c0065006e00' : b'i\x00l\x00e\x00n\x00' : 	imul	eax, dword ptr [eax], 0x65006c : Jaro Rate: 1
+Match: b'61006d0065000000' : b'a\x00m\x00e\x00\x00\x00' : 	popal	 : Jaro Rate: 1
+Match: b'43006f006e007300' : b'C\x00o\x00n\x00s\x00' : 	inc	ebx : Jaro Rate: 1
+Match: b'6f006c0065004100' : b'o\x00l\x00e\x00A\x00' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'7000700037002e00' : b'p\x00p\x007\x00.\x00' : 	jo	0x1002 : Jaro Rate: 1
+Match: b'6500780065000000' : b'e\x00x\x00e\x00\x00\x00' : 	add	byte ptr gs:[eax], bh : Jaro Rate: 1
+Match: b'38000c0001005000' : b'8\x00\x0c\x00\x01\x00P\x00' : 	cmp	byte ptr [eax], al : Jaro Rate: 1
+Match: b'72006f0064007500' : b'r\x00o\x00d\x00u\x00' : 	jb	0x1002 : Jaro Rate: 1
+Match: b'630074004e006100' : b'c\x00t\x00N\x00a\x00' : 	arpl	word ptr [eax], ax : Jaro Rate: 1
+Match: b'6d00650000000000' : b'm\x00e\x00\x00\x00\x00\x00' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'43006f006e007300' : b'C\x00o\x00n\x00s\x00' : 	inc	ebx : Jaro Rate: 1
+Match: b'6f006c0065004100' : b'o\x00l\x00e\x00A\x00' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'7000700037000000' : b'p\x00p\x007\x00\x00\x00' : 	jo	0x1002 : Jaro Rate: 1
+Match: b'3400080001005000' : b'4\x00\x08\x00\x01\x00P\x00' : 	xor	al, 0 : Jaro Rate: 1
+Match: b'72006f0064007500' : b'r\x00o\x00d\x00u\x00' : 	jb	0x1002 : Jaro Rate: 1
+Match: b'6300740056006500' : b'c\x00t\x00V\x00e\x00' : 	arpl	word ptr [eax], ax : Jaro Rate: 1
+Match: b'7200730069006f00' : b'r\x00s\x00i\x00o\x00' : 	jb	0x1002 : Jaro Rate: 1
+Match: b'6e00000031002e00' : b'n\x00\x00\x001\x00.\x00' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'30002e0030002e00' : b'0\x00.\x000\x00.\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'3000000038000800' : b'0\x00\x00\x008\x00\x08\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'0100410073007300' : b'\x01\x00A\x00s\x00s\x00' : 	add	dword ptr [eax], eax : Jaro Rate: 1
+Match: b'65006d0062006c00' : b'e\x00m\x00b\x00l\x00' : 	add	byte ptr gs:[ebp], ch : Jaro Rate: 1
+Match: b'7900200056006500' : b'y\x00 \x00V\x00e\x00' : 	jns	0x1002 : Jaro Rate: 1
+Match: b'7200730069006f00' : b'r\x00s\x00i\x00o\x00' : 	jb	0x1002 : Jaro Rate: 1
+Match: b'6e00000031002e00' : b'n\x00\x00\x001\x00.\x00' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'30002e0030002e00' : b'0\x00.\x000\x00.\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'30000000cc430000' : b'0\x00\x00\x00\xccC\x00\x00' : 	xor	byte ptr [eax], al : Jaro Rate: 1
+Match: b'ea01000000000000' : b'\xea\x01\x00\x00\x00\x00\x00\x00' : 	ljmp	0:1 : Jaro Rate: 1
+Match: b'00000000efbbbf3c' : b'\x00\x00\x00\x00\xef\xbb\xbf<' : 	add	byte ptr [eax], al : Jaro Rate: 1
+Match: b'3f786d6c20766572' : b'?xml ver' : 	aas	 : Jaro Rate: 1
+Match: b'73696f6e3d22312e' : b'sion="1.' : 	jae	0x106b : Jaro Rate: 1
+Match: b'302220656e636f64' : b'0" encod' : 	xor	byte ptr [edx], ah : Jaro Rate: 1
+Match: b'696e673d22555446' : b'ing="UTF' : 	imul	ebp, dword ptr [esi + 0x67], 0x5455223d : Jaro Rate: 1
+Match: b'2d3822207374616e' : b'-8" stan' : 	sub	eax, 0x73202238 : Jaro Rate: 1
+Match: b'64616c6f6e653d22' : b'dalone="' : 	popal	 : Jaro Rate: 1
+Match: b'796573223f3e0d0a' : b'yes"?>\r\n' : 	jns	0x1067 : Jaro Rate: 1
+Match: b'0d0a3c617373656d' : b'\r\n<assem' : 	or	eax, 0x73613c0a : Jaro Rate: 1
+Match: b'626c7920786d6c6e' : b'bly xmln' : 	bound	ebp, qword ptr [ecx + edi*2 + 0x20] : Jaro Rate: 1
+Match: b'733d2275726e3a73' : b's="urn:s' : 	jae	0x103f : Jaro Rate: 1
+Match: b'6368656d61732d6d' : b'chemas-m' : 	arpl	word ptr [eax + 0x65], bp : Jaro Rate: 1
+Match: b'6963726f736f6674' : b'icrosoft' : 	imul	esp, dword ptr [ebx + 0x72], 0x666f736f : Jaro Rate: 1
+Match: b'2d636f6d3a61736d' : b'-com:asm' : 	sub	eax, 0x3a6d6f63 : Jaro Rate: 1
+Match: b'2e763122206d616e' : b'.v1" man' : 	jbe	0x1034 : Jaro Rate: 1
+Match: b'6966657374566572' : b'ifestVer' : 	imul	esp, dword ptr [esi + 0x65], 0x65567473 : Jaro Rate: 1
+Match: b'73696f6e3d22312e' : b'sion="1.' : 	jae	0x106b : Jaro Rate: 1
+Match: b'30223e0d0a20203c' : b'0">\r\n  <' : 	xor	byte ptr [edx], ah : Jaro Rate: 1
+Match: b'617373656d626c79' : b'assembly' : 	popal	 : Jaro Rate: 1
+Match: b'4964656e74697479' : b'Identity' : 	dec	ecx : Jaro Rate: 1
+Match: b'2076657273696f6e' : b' version' : 	and	byte ptr [esi + 0x65], dh : Jaro Rate: 1
+Match: b'3d22312e302e302e' : b'="1.0.0.' : 	cmp	eax, 0x302e3122 : Jaro Rate: 1
+Match: b'3022206e616d653d' : b'0" name=' : 	xor	byte ptr [edx], ah : Jaro Rate: 1
+Match: b'224d794170706c69' : b'"MyAppli' : 	and	cl, byte ptr [ebp + 0x79] : Jaro Rate: 1
+Match: b'636174696f6e2e61' : b'cation.a' : 	arpl	word ptr [ecx + 0x74], sp : Jaro Rate: 1
+Match: b'7070222f3e0d0a20' : b'pp"/>\r\n ' : 	jo	0x1072 : Jaro Rate: 1
+Match: b'203c747275737449' : b' <trustI' : 	and	byte ptr [esp + esi*2], bh : Jaro Rate: 1
+Match: b'6e666f20786d6c6e' : b'nfo xmln' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'733d2275726e3a73' : b's="urn:s' : 	jae	0x103f : Jaro Rate: 1
+Match: b'6368656d61732d6d' : b'chemas-m' : 	arpl	word ptr [eax + 0x65], bp : Jaro Rate: 1
+Match: b'6963726f736f6674' : b'icrosoft' : 	imul	esp, dword ptr [ebx + 0x72], 0x666f736f : Jaro Rate: 1
+Match: b'2d636f6d3a61736d' : b'-com:asm' : 	sub	eax, 0x3a6d6f63 : Jaro Rate: 1
+Match: b'2e7632223e0d0a20' : b'.v2">\r\n ' : 	jbe	0x1035 : Jaro Rate: 1
+Match: b'2020203c73656375' : b'   <secu' : 	and	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'726974793e0d0a20' : b'rity>\r\n ' : 	jb	0x106b : Jaro Rate: 1
+Match: b'20202020203c7265' : b'     <re' : 	and	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'7175657374656450' : b'questedP' : 	jno	0x1077 : Jaro Rate: 1
+Match: b'726976696c656765' : b'rivilege' : 	jb	0x106b : Jaro Rate: 1
+Match: b'7320786d6c6e733d' : b's xmlns=' : 	jae	0x1022 : Jaro Rate: 1
+Match: b'2275726e3a736368' : b'"urn:sch' : 	and	dh, byte ptr [ebp + 0x72] : Jaro Rate: 1
+Match: b'656d61732d6d6963' : b'emas-mic' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'726f736f66742d63' : b'rosoft-c' : 	jb	0x1071 : Jaro Rate: 1
+Match: b'6f6d3a61736d2e76' : b'om:asm.v' : 	outsd	dx, dword ptr [esi] : Jaro Rate: 1
+Match: b'33223e0d0a202020' : b'3">\r\n   ' : 	xor	esp, dword ptr [edx] : Jaro Rate: 1
+Match: b'20202020203c7265' : b'     <re' : 	and	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'7175657374656445' : b'questedE' : 	jno	0x1077 : Jaro Rate: 1
+Match: b'7865637574696f6e' : b'xecution' : 	js	0x1067 : Jaro Rate: 1
+Match: b'4c6576656c206c65' : b'Level le' : 	dec	esp : Jaro Rate: 1
+Match: b'76656c3d22617349' : b'vel="asI' : 	jbe	0x1067 : Jaro Rate: 1
+Match: b'6e766f6b65722220' : b'nvoker" ' : 	outsb	dx, byte ptr [esi] : Jaro Rate: 1
+Match: b'7569416363657373' : b'uiAccess' : 	jne	0x106b : Jaro Rate: 1
+Match: b'3d2266616c736522' : b'="false"' : 	cmp	eax, 0x6c616622 : Jaro Rate: 1
+Match: b'2f3e0d0a20202020' : b'/>\r\n    ' : 	das	 : Jaro Rate: 1
+Match: b'20203c2f72657175' : b'  </requ' : 	and	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'6573746564507269' : b'estedPri' : 	jae	0x1077 : Jaro Rate: 1
+Match: b'76696c656765733e' : b'vileges>' : 	jbe	0x106b : Jaro Rate: 1
+Match: b'0d0a202020203c2f' : b'\r\n    </' : 	or	eax, 0x2020200a : Jaro Rate: 1
+Match: b'7365637572697479' : b'security' : 	jae	0x1067 : Jaro Rate: 1
+Match: b'3e0d0a20203c2f74' : b'>\r\n  </t' : 	or	eax, 0x3c20200a : Jaro Rate: 1
+Match: b'72757374496e666f' : b'rustInfo' : 	jb	0x1077 : Jaro Rate: 1
+Match: b'3e0d0a3c2f617373' : b'>\r\n</ass' : 	or	eax, 0x612f3c0a : Jaro Rate: 1
+Match: b'656d626c793e0000' : b'embly>\x00\x00' : 	insd	dword ptr es:[edi], dx : Jaro Rate: 1
+Match: b'002000000c000000' : b'\x00 \x00\x00\x0c\x00\x00\x00' : 	add	byte ptr [eax], ah : Jaro Rate: 1
+Match: b'dc36000000000000' : b'\xdc6\x00\x00\x00\x00\x00\x00' : 	fdiv	qword ptr [esi] : Jaro Rate: 1
+4.29
