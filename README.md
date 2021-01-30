@@ -1,6 +1,7 @@
 # Monk
 ![](https://github.com/Finch4/Monk/blob/master/Monk%20Logo.png?raw=true)
 Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlFLXSo0zgg)
+
 Common bytes seeker for Malware identification.
 ## Explaination
 - increaser = How many bytes start to parse, example: [0:n] -> [0+n:n+n] -> [0+n+n:n+n+n] etc....
