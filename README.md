@@ -4,6 +4,7 @@ Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlF
 
 Common bytes seeker for Malware identification.
 ## Explaination
+[Follow this explaination only if you are using the version v0.1]
 - increaser = How many bytes start to parse, example: [0:n] -> [0+n:n+n] -> [0+n+n:n+n+n] etc....
 - increase = If after finished to parse the entire file restart again increasing the [increaser] (y/n)
 - increase_v = How many bytes add to increaser after restarting
@@ -11,6 +12,9 @@ Common bytes seeker for Malware identification.
 [0:increaser] and etc...., the second time will be [0:increaser+increase_v] (let's call it temp_value), the third time will be [0:temp_value+increase_v].
 
 [Video](https://youtu.be/lk6bFiqNY6o) [v0,1]
+
+## Explaination v0.5
+![Video incomaing]()
 
 
 ## Report
