@@ -47,3 +47,10 @@ Yes, there are two ways to help me, you can modify the code and make it better [
 ## v0.4
 - Report more clear, removed useless/incorrect information
 - Added new function to compare reports
+## v0.5
+### THE BIGGEST UPDATE
+- Completely rewritten in C#
+- Multithread
+- GUI
+- New function to compare bytes with a .json database
+- Everything open source
