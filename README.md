@@ -14,7 +14,7 @@ Common bytes seeker for Malware identification.
 [Video](https://youtu.be/lk6bFiqNY6o) [v0,1]
 
 ## Explaination v0.5
-![Video incomaing]()
+![Video incoming]()
 
 
 ## Report
