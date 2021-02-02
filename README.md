@@ -3,7 +3,7 @@ Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlF
 ![](https://github.com/Finch4/Monk/blob/master/Monk%20Logo.png?raw=true)
 
 
-![](https://github.com/Finch4/Monk/blob/master/Monk.PNG?raw=true)
+![](https://github.com/Finch4/Monk/blob/master/Monk_1.PNG?raw=true)
 
 Common bytes seeker for Malware identification.
 ## Explaination
