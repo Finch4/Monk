@@ -5,6 +5,10 @@ Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlF
 
 ![](https://github.com/Finch4/Monk/blob/master/Monk%20Logo%202.0.png?raw=true)
 
+
+
+![](https://github.com/Finch4/Monk/blob/master/Monk_1.PNG?raw=true)
+
 Common bytes seeker for Malware identification.
 ## Explaination
 [Follow this explaination only if you are using the version v0.1]
