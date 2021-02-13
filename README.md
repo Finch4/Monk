@@ -23,24 +23,6 @@ Common bytes seeker for Malware identification.
 ## Explaination v0.5
 [Video](https://youtu.be/F7T1lGaJmj8)
 
-
-## Report
-The report is divided in:
-
-Bytes | Jaro rate
-
-The work to indentify if a match is unique and valuable for the analysis is work of the analyst.
-
-[v0.1]
-
-P.S: The example report is the comparison of the same executable, see images [In this case the assemby is correct].
-
-![](https://raw.githubusercontent.com/Finch4/Monk/main/hex.png?token=AMRB74AGCTDGDA7CXFGAW7K77HAUY)
-
-![](https://raw.githubusercontent.com/Finch4/Monk/main/assembly.png?token=AMRB74BLJJQMLPHHAS4UZ7277HAVU)
-
-![](https://raw.githubusercontent.com/Finch4/Monk/main/match.png?token=AMRB74CD5DNF3O4FV62Q4W277HAW4)
-
 # Questions
 __[1]__ What is the filter? where can I get one?:
 
