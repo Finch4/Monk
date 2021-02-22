@@ -10,6 +10,8 @@ Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlF
 ![](https://github.com/Finch4/Monk/blob/master/Monk_1.PNG?raw=true)
 
 Common bytes seeker for Malware identification.
+[Website version](http://finch4.pythonanywhere.com/)
+
 ## Explaination
 [Follow this explaination only if you are using the version v0.1]
 - increaser = How many bytes start to parse, example: [0:n] -> [0+n:n+n] -> [0+n+n:n+n+n] etc....
