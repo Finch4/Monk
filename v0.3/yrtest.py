@@ -2,8 +2,8 @@ import yara
 import textdistance
 
 # Try Monk comparison and filter with YARA and then post the results here: https://github.com/Finch4/Monk/issues with the tag "Results"
-rule = yara.compile(source='rule foo: bar {strings: $a = "0d0000706f100000" condition: $a}')
-matches = rule.match(data=f'{open("YOUR_TXT.txt","r").readlines()}')
+rule = yara.compile(source='rule foo: bar {strings: $a = {} condition: $a}')
+matches = rule.match(data=f'{open("YOUR_SAMPLE","rb").readlines()}')
 
 for i in matches:
     print(matches)
