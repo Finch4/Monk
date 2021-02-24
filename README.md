@@ -11,6 +11,16 @@ Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlF
 
 Common bytes seeker for Malware identification.
 [Website version](http://finch4.pythonanywhere.com/)
+## General
+
+Currently there are three versions of Monk:
+
+ - Python (Missing the .json database function)
+
+ - C# (Complete [until I get new ideas])
+
+ - Website [Django] (Currently just the function to compare, anyway need also some fixes)
+
 
 ## Explaination
 [Follow this explaination only if you are using the version v0.1]
