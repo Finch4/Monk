@@ -10,10 +10,11 @@ Monk, is a program that helps you find unique sequence of bytes which you can us
 [Attention, at the moment all this explaination is valid just for C# version of Monk, read "about" for the github release]
 
 First of all, it needs two samples to compare, then you need to insert how many bytes to take and how much they must be similar (jaro_input_rate), here an example (8 bytes in this case):
+```
 [Sample 1]                 | [Sample 2]
 4d5a900003000000           | 4d5a900003000000 -> jaro_rate = 1 - if jaro_rate > {your_input_rate} = print in the report
 04000000ffff0000           | 04000000ffff0000 -> jaro_rate = 1 - if jaro_rate > {your_input_rate} = print in the report
-
+```
 Anyway there is still some logic behind;
 
 1:
@@ -25,13 +26,13 @@ Imagine there are two sequences of bytes (bytes_1 = "0A1FB40E580B509C8" | bytes_
 instead there are the wild-cards: "?", Monk automatically compare every nibbles:
 
 
-
+```
 if bytes_1[i] == bytes_2[i]:
           pass
 else:
           bytes_1[i] = "?"
           bytes_2[i] = "?" (Anyway just one sequence of bytes will be written, they will be equal)
-
+```
 
 Now doing this in our example it makes:
 0A1FB?0E??B?09C? (There is still a "bug" in the version 0.6, YARA doesn't accept wild-cards at the first byte)
