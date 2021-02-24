@@ -19,7 +19,7 @@ Currently there are three versions of Monk:
 
  - C# (Complete [until I get new ideas])
 
- - Website [Django] (Currently just the function to compare, anyway need also some fixes)
+ - Website [Django] (Currently just the function to analyze, anyway need also some fixes)
 
 
 ## Explaination
