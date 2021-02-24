@@ -23,16 +23,48 @@ Currently there are three versions of Monk:
 
 
 ## Explaination
-[Follow this explaination only if you are using the version v0.1]
-- increaser = How many bytes start to parse, example: [0:n] -> [0+n:n+n] -> [0+n+n:n+n+n] etc....
-- increase = If after finished to parse the entire file restart again increasing the [increaser] (y/n)
-- increase_v = How many bytes add to increaser after restarting
-- times = How many times add bytes number to parse to [increase], example: if [increase_v] == 2 and [times] == 2 and [increase] == "y" and [increaser] = 8, the first parse will be
-[0:increaser] and etc...., the second time will be [0:increaser+increase_v] (let's call it temp_value), the third time will be [0:temp_value+increase_v].
+# What is Monk?
+Monk, is a program that helps you find unique sequence of bytes which you can use in YARA to indentify malware families.
 
-[Video](https://youtu.be/lk6bFiqNY6o) [v0,1]
+        
+# How it works?
 
-## Explaination v0.5
+
+[Attention, at the moment all this explaination is valid just for C# version of Monk, read "about" for the github release]
+
+First of all, it needs two samples to compare, then you need to insert how many bytes to take and how much they must be similar (jaro_input_rate), here an example (8 bytes in this case):
+[Sample 1]                 | [Sample 2]
+4d5a900003000000           | 4d5a900003000000 -> jaro_rate = 1 - if jaro_rate > {your_input_rate} = print in the report
+04000000ffff0000           | 04000000ffff0000 -> jaro_rate = 1 - if jaro_rate > {your_input_rate} = print in the report
+
+Anyway there is still some logic behind;
+
+1:
+In the new version v0.6 it removes every 0 before calculate the jaro_rate, why this? because I figured out that useless sequence
+of bytes were considerated useful just because there were some zeroes, so the zeroes were increasing the jaro rate.
+
+2:
+Imagine there are two sequences of bytes (bytes_1 = "0A1FB40E580B509C8" | bytes_2 = "0A1FB20E14B409CD", now they can be similar, but YARA doesn't work with jaro
+instead there are the wild-cards: "?", Monk automatically compare every nibbles:
+
+
+
+if bytes_1[i] == bytes_2[i]:
+          pass
+else:
+          bytes_1[i] = "?"
+          bytes_2[i] = "?" (Anyway just one sequence of bytes will be written, they will be equal)
+
+
+Now doing this in our example it makes:
+0A1FB?0E??B?09C? (There is still a "bug" in the version 0.6, YARA doesn't accept wild-cards at the first byte)
+
+# The .json "database"
+
+[This need to be fixed due the new methods that removes 0 and apply wild-cards]
+
+Is where you can store your unique bytes and import it in Monk, it scan the json everytime you make a new analysis and add the matches in the table.
+ 
 [Video](https://youtu.be/F7T1lGaJmj8)
 
 # Questions
