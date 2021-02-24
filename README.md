@@ -1,27 +1,4 @@
 # Monk
-Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlFLXSo0zgg)
-
-
-
-![](https://github.com/Finch4/Monk/blob/master/Monk%20Logo%202.0.png?raw=true)
-
-
-
-![](https://github.com/Finch4/Monk/blob/master/Monk_1.PNG?raw=true)
-
-Common bytes seeker for Malware identification.
-[Website version](http://finch4.pythonanywhere.com/)
-## General
-
-Currently there are three versions of Monk:
-
- - Python (Missing the .json database function)
-
- - C# (Complete [until I get new ideas])
-
- - Website [Django] (Currently just the function to analyze, anyway need also some fixes)
-
-
 ## Explaination
 # What is Monk?
 Monk, is a program that helps you find unique sequence of bytes which you can use in YARA to indentify malware families.
@@ -66,6 +43,31 @@ Now doing this in our example it makes:
 Is where you can store your unique bytes and import it in Monk, it scan the json everytime you make a new analysis and add the matches in the table.
  
 [Video](https://youtu.be/F7T1lGaJmj8)
+
+Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlFLXSo0zgg)
+
+
+
+![](https://github.com/Finch4/Monk/blob/master/Monk%20Logo%202.0.png?raw=true)
+
+
+
+![](https://github.com/Finch4/Monk/blob/master/Monk_1.PNG?raw=true)
+
+Common bytes seeker for Malware identification.
+[Website version](http://finch4.pythonanywhere.com/)
+## General
+
+Currently there are three versions of Monk:
+
+ - Python (Missing the .json database function)
+
+ - C# (Complete [until I get new ideas])
+
+ - Website [Django] (Currently just the function to analyze, anyway need also some fixes)
+
+
+
 
 # Questions
 __[1]__ What is the filter? where can I get one?:
