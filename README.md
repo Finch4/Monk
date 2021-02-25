@@ -35,7 +35,7 @@ else:
 ```
 
 Now doing this in our example it makes:
-0A1FB?0E??B?09C? (There is still a "bug" in the version 0.6, YARA doesn't accept wild-cards at the first byte)
+0A1FB?0E??B?09C? (~~There is still a "bug" in the version 0.6, YARA doesn't accept wild-cards at the first byte~~ Fixed in version v0.7)
 
 # The .json "database"
 
