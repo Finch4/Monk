@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------------------------------------------
 # Remember, there will be some usual bytes and some non-unique bytes, is your role to find the unique ones.
-# Maybe I have already found one, I tested it in five samples and four of them had this sequence: OOOOB18F0BFC6105
+# Maybe I have already found one, I tested it in five samples and four of them had this sequence: 0000B18F0BFC6105
 # If you find something useful, please give me a feedback for Monk, if you have any constructive suggestion be free to share it.
 ------------------------------------------------------------------------------------------------------------------
 
