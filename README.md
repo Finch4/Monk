@@ -7,7 +7,7 @@ Monk, is a program that helps you find unique sequence of bytes which you can us
 # How it works?
 
 
-[Attention, at the moment all this explaination is valid just for C# version of Monk, read "about" for the github release]
+[Attention, at the moment all this explaination is valid just for C# version of Monk]
 
 First of all, it needs two samples to compare, then you need to insert how many bytes to take and how much they must be similar (jaro_input_rate), here an example (8 bytes in this case):
 ```
