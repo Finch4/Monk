@@ -6,56 +6,7 @@ Monk, is a program that helps you find unique sequence of bytes which you can us
         
 # How it works?
 
-
-[Attention, at the moment all this explaination is valid just for C# version of Monk]
-
-Remember:
-if jaro_rate (Jaro Similarity) (of the sequences of bytes compared) > {your_input_rate} = print in the report
-[between * are the bytes compared in every scan]
-        
-First Scan
-Sample 1	         Sample 2
-*4d5a900003000000*	*4d5a900003000000*
-04000000ffff0000	*04000000ffff0000*
-656375726974793E	*6C7365222F3E0D0A*
-Second Scan
-Sample 1	         Sample 2
-4d5a900003000000	*4d5a900003000000*
-*04000000ffff0000*	*04000000ffff0000*
-656375726974793E	*6C7365222F3E0D0A*
-Third Scan
-Sample 1	        Sample 2
-4d5a900003000000	*4d5a900003000000*
-04000000ffff0000	*04000000ffff0000*
-*656375726974793E*	*6C7365222F3E0D0A*
-
-As you can understand, this will take a lot of time on large files, so I suggest to cut with an Hex Editor the interested part or dump the section if is a PE.
-Anyway there is still some logic behind;
-
-[1]:
-In the new version v0.6 it removes every 0 before calculate the jaro_rate, why this? because I figured out that useless sequence
-of bytes were considerated useful just because there were some zeroes, so the zeroes were increasing the jaro rate.
-
-[2]:
-Imagine there are two sequences of bytes (bytes_1 = "0A1FB40E580B509C8" | bytes_2 = "0A1FB20E14B409CD", now they can be similar, but YARA doesn't work with jaro
-instead there are the wild-cards: "?", Monk automatically compare every nibbles:
-
-
-
-if bytes_1[i] == bytes_2[i]:
-          pass
-else:
-          bytes_1[i] = "?"
-          bytes_2[i] = "?"
-
-
-Now doing this in our example it makes:
-0A1FB?0E??B?09C?
-The .json database
-
-[This need to be fixed due the new methods that removes 0 and apply wild-cards]
-
-Is where you can store your unique bytes in a very simple json and import it in Monk, it scan the database everytime you make a new analysis and add the matches in the table.
+For reasons of formatting is better to read the explaination here: http://finch4.pythonanywhere.com/
  
 [Video](https://youtu.be/F7T1lGaJmj8)
 
