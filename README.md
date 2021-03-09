@@ -8,7 +8,7 @@ Monk, is a program that helps you find unique sequence of bytes which you can us
 
 For reasons of formatting is better to read the explaination here: http://finch4.pythonanywhere.com/
  
-[Video](https://youtu.be/F7T1lGaJmj8)
+[Video](https://youtu.be/F7T1lGaJmj8) [Old Version]
 
 Logo created by: [Stefano Tech](https://www.youtube.com/channel/UCf-ZEAjv-Fo7UlFLXSo0zgg)
 
