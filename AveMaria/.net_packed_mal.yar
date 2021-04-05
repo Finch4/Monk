@@ -1,4 +1,4 @@
-rule .net_packed_mal
+rule net_packed_mal
 {
 
     meta:
