@@ -6,7 +6,7 @@ Monk, is a program that helps you find unique sequence of bytes which you can us
         
 # How it works?
 
-For reasons of formatting is better to read the explaination here: http://finch4.pythonanywhere.com/
+For reasons of formatting is better to read the explanation here: http://finch4.pythonanywhere.com/
  
 [Video](https://youtu.be/F7T1lGaJmj8) [Old Version]
 
