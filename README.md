@@ -47,7 +47,7 @@ As you can understand, this will take a lot of time on large files, so I suggest
 
 ## [1]:
 In the new version v0.6 it removes every 0 before calculate the jaro_rate, why this? because I figured out that useless sequence
-of bytes were considerated useful just because there were some zeroes, so the zeroes were increasing the jaro rate.
+of bytes containing only zeroes were considered useful.
 
 ## [2]:
 Imagine there are two sequences of bytes (bytes_1 = "0A1FB40E580B509C8" | bytes_2 = "0A1FB20E14B409CD", now they can be similar, but YARA doesn't work with jaro
