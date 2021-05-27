@@ -59,7 +59,7 @@ if bytes_1[i] == bytes_2[i]:
           pass
 else:
           bytes_1[i] = "?"
-          bytes_2[i] = "?" (Anyway just one sequence of bytes will be written, they will be equal)
+          bytes_2[i] = "?"
 ```
 
 Now doing this in our example it makes:
