@@ -1,5 +1,5 @@
 # Monk
-## Explaination
+## Explanation
 # What is Monk?
 Monk, is a program that helps you find unique sequence of bytes which you can use in YARA to indentify malware families.
 
