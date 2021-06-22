@@ -9,7 +9,7 @@ Monk, is a program that helps you find unique sequence of bytes which you can us
         
 
 
-[Attention, at the moment all this explanation is valid just for C# version of Monk, read "about" for the github release]
+[Attention, at the moment all this explanation is valid just for the C# version of Monk, read "about" for the github release]
         
 #### Remember
     if jaro_rate (Jaro Similarity) (of the sequences of bytes compared) > {your_input_rate} = print in the report
